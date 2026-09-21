@@ -120,11 +120,6 @@ is a second real reliability gap: the agent reached the right answer
 through incomplete reasoning, which is a dangerous pattern in an
 unsupervised real product, since it will not always get lucky.
 
-One environment note: this run used `qwen2.5:3b`, which the lab manual
-flags as carrying a research licence rather than Apache 2.0 — the intended
-models for this course are `qwen2.5:1.5b` or `qwen2.5:7b`. The behavior
-above is specific to this model and provider; results can differ with a
-different local model.
 
 ## 3. Comparison table
 
