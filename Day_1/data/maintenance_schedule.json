@@ -1,0 +1,27 @@
+[
+  {
+    "task": "Engine Oil Change",
+    "interval_km": 5000,
+    "last_done_km": 35000
+  },
+  {
+    "task": "Brake Inspection",
+    "interval_km": 10000,
+    "last_done_km": 30000
+  },
+  {
+    "task": "Air Filter Replacement",
+    "interval_km": 20000,
+    "last_done_km": 30000
+  },
+  {
+    "task": "Tyre Rotation",
+    "interval_km": 10000,
+    "last_done_km": 38000
+  },
+  {
+    "task": "Coolant Replacement",
+    "interval_km": 40000,
+    "last_done_km": 5000
+  }
+]

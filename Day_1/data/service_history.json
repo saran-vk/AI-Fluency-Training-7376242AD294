@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-02-10",
+    "service_type": "General Service",
+    "odometer_km": 30000,
+    "cost": 4500,
+    "issues_found": ["Brake pad wear"]
+  },
+  {
+    "date": "2026-06-15",
+    "service_type": "Oil Change",
+    "odometer_km": 35000,
+    "cost": 2800,
+    "issues_found": []
+  },
+  {
+    "date": "2026-09-01",
+    "service_type": "Tyre Rotation",
+    "odometer_km": 38000,
+    "cost": 1200,
+    "issues_found": ["Uneven tread wear on rear left tyre"]
+  }
+]
