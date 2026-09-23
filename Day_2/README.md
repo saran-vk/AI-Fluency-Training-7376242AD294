@@ -1,6 +1,6 @@
 # Vehicle Maintenance Assistant — Direct vs CoT vs ReAct
 
-Day 2 Task (Unit 1, sub-topics 1.3–1.4): comparing direct prompting,
+Day 2 Task: comparing direct prompting,
 Chain-of-Thought prompting, and a ReAct agent on a scenario of my own
 — a vehicle maintenance assistant built on real vehicle, service
 history, and maintenance schedule data.
@@ -43,22 +43,6 @@ no tool required, but every number comes from the actual JSON files):
 
 ```bash
 pip install openai python-dotenv
-```
-
-This project was run with `PROVIDER=groq` and `MODEL=openai/gpt-oss-120b`
-(set in a local `.env` file, not committed). To reproduce with a local
-model instead:
-
-```bash
-ollama pull qwen3:4b
-```
-and leave `.env` empty, or set `PROVIDER=ollama`.
-
-To use Groq or Hugging Face, create a `.env` file:
-```
-PROVIDER=groq
-GROQ_API_KEY=your-key-here
-MODEL=openai/gpt-oss-120b
 ```
 
 ## How to run
